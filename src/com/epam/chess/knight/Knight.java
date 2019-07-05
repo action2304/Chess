@@ -12,6 +12,46 @@ public class Knight {
     private int[] stepY = {1, -1, -1, 1, -2, -2, 2, 2};
     private int[] stepsCount = {8, 0, 0};
 
+    public int getxCoor() {
+        return xCoor;
+    }
+
+    public void setxCoor(int xCoor) {
+        this.xCoor = xCoor;
+    }
+
+    public int getyCoor() {
+        return yCoor;
+    }
+
+    public void setyCoor(int yCoor) {
+        this.yCoor = yCoor;
+    }
+
+    public int getMoveCount() {
+        return moveCount;
+    }
+
+    public void setMoveCount(int moveCount) {
+        this.moveCount = moveCount;
+    }
+
+    public int[] getStepsCount() {
+        return stepsCount;
+    }
+
+    public void setStepsCount(int[] stepsCount) {
+        this.stepsCount = stepsCount;
+    }
+
+    public int[] getStepX() {
+        return stepX;
+    }
+
+    public int[] getStepY() {
+        return stepY;
+    }
+
     public int checkKnightSteps(int coorX, int coorY) {
 
         int knightSteps = 0;

@@ -6,6 +6,26 @@ public class ChessBoard {
     private int[] queensLocation;
     private int combinationIndexNumber;
 
+    public int getBOARD_SIZE() {
+        return BOARD_SIZE;
+    }
+
+    public int[] getQueensLocation() {
+        return queensLocation;
+    }
+
+    public void setQueensLocation(int[] queensLocation) {
+        this.queensLocation = queensLocation;
+    }
+
+    public int getCombinationIndexNumber() {
+        return combinationIndexNumber;
+    }
+
+    public void setCombinationIndexNumber(int combinationIndexNumber) {
+        this.combinationIndexNumber = combinationIndexNumber;
+    }
+
     public ChessBoard(int queensCount) {
         this.queensLocation = new int[queensCount];
 
